@@ -1,0 +1,3 @@
+D:/Projects/CardGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Projects/CardGame/cmake-build-debug/CMakeFiles/CardGame.dir
+D:/Projects/CardGame/cmake-build-debug/CMakeFiles/edit_cache.dir
