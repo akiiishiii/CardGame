@@ -128,6 +128,54 @@ CardGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/build
 .PHONY : CardGame/fast
 
+Card.obj: Card.cpp.obj
+.PHONY : Card.obj
+
+# target to build an object file
+Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/Card.cpp.obj
+.PHONY : Card.cpp.obj
+
+Card.i: Card.cpp.i
+.PHONY : Card.i
+
+# target to preprocess a source file
+Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/Card.cpp.i
+.PHONY : Card.cpp.i
+
+Card.s: Card.cpp.s
+.PHONY : Card.s
+
+# target to generate assembly for a file
+Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/Card.cpp.s
+.PHONY : Card.cpp.s
+
+CardDeck.obj: CardDeck.cpp.obj
+.PHONY : CardDeck.obj
+
+# target to build an object file
+CardDeck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/CardDeck.cpp.obj
+.PHONY : CardDeck.cpp.obj
+
+CardDeck.i: CardDeck.cpp.i
+.PHONY : CardDeck.i
+
+# target to preprocess a source file
+CardDeck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/CardDeck.cpp.i
+.PHONY : CardDeck.cpp.i
+
+CardDeck.s: CardDeck.cpp.s
+.PHONY : CardDeck.s
+
+# target to generate assembly for a file
+CardDeck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CardGame.dir\build.make CMakeFiles/CardGame.dir/CardDeck.cpp.s
+.PHONY : CardDeck.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +209,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CardGame
+	@echo ... Card.obj
+	@echo ... Card.i
+	@echo ... Card.s
+	@echo ... CardDeck.obj
+	@echo ... CardDeck.i
+	@echo ... CardDeck.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

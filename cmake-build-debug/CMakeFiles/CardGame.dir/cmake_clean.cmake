@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CardGame.dir/Card.cpp.obj"
+  "CMakeFiles/CardGame.dir/CardDeck.cpp.obj"
   "CMakeFiles/CardGame.dir/main.cpp.obj"
   "CardGame.exe"
   "CardGame.exe.manifest"

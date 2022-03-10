@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Projects/CardGame/Card.cpp">
+			<Option target="CardGame"/>
+		</Unit>
+		<Unit filename="D:/Projects/CardGame/Card.h">
+			<Option target="CardGame"/>
+		</Unit>
+		<Unit filename="D:/Projects/CardGame/CardDeck.cpp">
+			<Option target="CardGame"/>
+		</Unit>
+		<Unit filename="D:/Projects/CardGame/CardDeck.h">
+			<Option target="CardGame"/>
+		</Unit>
 		<Unit filename="D:/Projects/CardGame/main.cpp">
 			<Option target="CardGame"/>
 		</Unit>

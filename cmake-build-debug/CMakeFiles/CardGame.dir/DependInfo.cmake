@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Projects/CardGame/Card.cpp" "D:/Projects/CardGame/cmake-build-debug/CMakeFiles/CardGame.dir/Card.cpp.obj"
+  "D:/Projects/CardGame/CardDeck.cpp" "D:/Projects/CardGame/cmake-build-debug/CMakeFiles/CardGame.dir/CardDeck.cpp.obj"
   "D:/Projects/CardGame/main.cpp" "D:/Projects/CardGame/cmake-build-debug/CMakeFiles/CardGame.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
