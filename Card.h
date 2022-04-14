@@ -33,13 +33,14 @@ private:
 
 class Card {
 private:
-    SuitType suit_{};
-    int rank_{};
+    SuitType suit_;
+    int rank_ = 0;
 public:
     Card() = default;
     Card(SuitType suit, int rank) : suit_(suit), rank_(rank) { }
 
     bool operator<(Card const &c) const;
+    bool operator==(Card const &c) const;
 
     void Display() const;
     std::string rank_to_string() const;

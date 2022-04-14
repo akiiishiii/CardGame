@@ -5,6 +5,7 @@
 #ifndef CARDGAME_CARDDECK_H
 #define CARDGAME_CARDDECK_H
 
+
 #include <vector>
 
 class Card;
@@ -16,10 +17,15 @@ public:
     CardDeck() = default;
 
     void Display();
+    int Size() { return static_cast<int>(cards_.size()); }
     CardDeck &Initial();
     CardDeck &Shuffle();
-    CardDeck &DeleteTop();
-    CardDeck &SendDeck(CardDeck &c);
+    CardDeck &Erase(Card card);
+    CardDeck &EraseTop();
+    CardDeck &EraseTop(int n);
+    CardDeck &SendDeck(CardDeck &target);
+    CardDeck &SendDeck(CardDeck &target, int n);
+    CardDeck &SendDeck(CardDeck &target, Card card);
 };
 
 
