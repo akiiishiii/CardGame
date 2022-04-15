@@ -55,7 +55,7 @@ int main() {
     std::cout << "Seperation completed.\n\n";
 
     for (int i = 0; i < 4; i++) {
-        std::cout << "Player " << i+1 << "'s card deck:\n";
+        std::cout << "Player " << i + 1 << "'s card deck:\n";
         players[i].Display();
         std::cout << std::endl;
     }

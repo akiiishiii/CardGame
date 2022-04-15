@@ -15,8 +15,8 @@ void CardDeck::Display() {
         return;
     }
     int cnt = 0;
-    for (auto const &c : cards_) {
-        c.Display();
+    for (auto c = cards_.rbegin(); c != cards_.rend(); c++) {
+        c->Display();
         cnt += 1;
         if (cnt % 4 == 0 || cnt == cards_.size())
             std::cout << std::endl;
