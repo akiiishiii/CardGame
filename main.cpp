@@ -34,10 +34,20 @@ int main() {
     deck.Display();
     std::cout << std::endl;
 
-    /// 去掉牌堆顶端两张卡牌
-    std::cout << "Press Enter to erase TWO cards form the top of the card deck.\n";
+    /// 去掉牌堆顶端一张卡牌
+    std::cout << "Press Enter to erase Diamond 5 form the card deck.\n";
     std::system("pause");
-    deck.EraseTop(2);
+    deck.Erase(Card(SuitType::DIAMOND, 5));
+    std::cout << "Erasing completed.\n\n";
+
+    std::cout << "Current card deck:\n";
+    deck.Display();
+    std::cout << std::endl;
+
+    /// 去掉牌堆顶端一张卡牌
+    std::cout << "Press Enter to erase a cards form the top of the card deck.\n";
+    std::system("pause");
+    deck.EraseTop();
     std::cout << "Erasing completed.\n\n";
 
     std::cout << "Current card deck:\n";

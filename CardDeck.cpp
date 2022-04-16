@@ -57,16 +57,14 @@ CardDeck &CardDeck::Shuffle() {
 /// \param card 需要删除的卡片
 /// \return CardDeck 删除指定卡片后的卡堆
 CardDeck &CardDeck::Erase(Card card) {
-    std::vector<Card>::iterator it;
     try {
-        it = std::find(cards_.begin(), cards_.end(), card);
+        auto it = std::find(cards_.begin(), cards_.end(), card);
         if (it == cards_.end()) {
             std::cerr << "Couldn't find the expected card.\n";
             throw std::bad_exception();
         }
         cards_.erase(it);
     } catch (std::bad_exception& e) {
-
         throw e;
     }
     return *this;
